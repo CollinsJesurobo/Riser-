@@ -1,3 +1,4 @@
+Riser- SCR Riser analysis automation
 This project involves building an automation tool with ORCAFLEX-Python API to automate subsea SCR riser modelling, analysis and postprocessing. The entire process from preprocessing to postprocessing was automated in Python.This method can also be applied to umbilicals, hoses.
 
 The single steel riser has a catenary shape with EndA connected to FPSO at the topside and EndB anchored to the seabed. The response of the riser due to  hydrodynamics loading(wave,current), vessel RAOs, pipe self waight and content are simulated to determine the worst values for effective tension(top and bottom), bending moment, stresses, maximum combined loading on the riser. The allowable limits for effective tension, stresses, are computed from APIRP1111 recommended practice taking into consideration the design factors and material strength. 
